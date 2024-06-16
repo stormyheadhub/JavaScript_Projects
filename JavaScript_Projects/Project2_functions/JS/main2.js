@@ -12,5 +12,5 @@ function myFunction() {
      var welcome = greeting + firstname + message;
 
      //Get the element that has an id of greeting
-     var el = document.getElementById('greeting');
+     var el = document.getElementById('welcome');
     
