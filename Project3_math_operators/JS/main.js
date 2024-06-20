@@ -1,3 +1,7 @@
+window.alert(Math.random());
+
+window.alert(Math.random() * 100);
+
 function addition_Function() {
     var addition = 2 + 2;
     document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
@@ -46,7 +50,3 @@ function increment() {
     X++;
     document.write(X);
 }
-
-window.alert(Math.random());
-
-window.alert(Math.random() * 100);
