@@ -3,6 +3,8 @@ function addition_Function() {
     document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
 }
 
+object.onclick = function(){myScript};
+
 function subtraction_Function() {
     var Subtraction = 5 - 2;
     document.getElementById("Math").innerHTML = "5 - 2 = " + Subtraction;
@@ -28,12 +30,12 @@ function modulus_Operator() {
     document.getElementById('Math').innerHTML= "When you divide 25 by 6 you have a remainder of: " + simple_Math;
 }
 
-function negation_Operator()    {
+function negation_Operator() {
     var x = 10;
     document.getElementById("Math") .innerHTML = -x;
 }
 
-function increment() {
+function decrement() {
     var X = 5.25;
     X--;
     document.write(X);
