@@ -1,6 +1,5 @@
 //This is an example of using the .concat method.
 function full_Sentence() {
-
     var part_1 = "I have ";
     var part_2 = "made this ";
     var part_3 = "into a complete ";
@@ -9,10 +8,10 @@ function full_Sentence() {
     document.getElementById("Concatenate").innerHTML = Whole_sentence;
 }
 
-//This is an example of using a the slice method.
+//This is an example of using the slice method.
 function slice_Method() {
     var Sentence = "All work and no play makes Johnny a dull boy.";
-    var Section = Sentence.slice(27,33);
+    var Section = Sentence.slice(21,33);
     document.getElementById("Slice").innerHTML = Section;
 }
 
