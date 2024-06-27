@@ -36,17 +36,17 @@ function modulus_Operator() {
 
 function negation_Operator() {
     var x = 10;
-    document.getElementById("Math") .innerHTML = -x;
+    document.getElementById("Math").innerHTML = -x;
 }
 
 function decrement() {
     var X = 5.25;
     X--;
-    document.write(X);
+    document.getElementById("Math").innerHTML = X;
 }
 
 function increment() {
     var X = 5;
     X++;
-    document.write(X);
+    document.getElementById("Math").innerHTML = X;
 }

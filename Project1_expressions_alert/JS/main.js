@@ -15,4 +15,4 @@ var Sent2="This is the end of the string";
 
 document.write(Sent1 + Sent2)
 
-Document.write(2+3);
+document.write(2+3);
