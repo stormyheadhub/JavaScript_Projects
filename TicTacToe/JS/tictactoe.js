@@ -1,7 +1,7 @@
 //This variable keeps track of whose turn it is.
 let activePlayer = 'X';
 //This array store an array of moves. We use this to determine win conditions.
-let selectedSqaures = [];
+let selectedSquares = [];
 
 //This function is for placing an X or O in a square.
 function placeXOrO(squareNumber) {
@@ -14,14 +14,14 @@ function placeXOrO(squareNumber) {
         //This condition checks who's turn it is.
         if (activePlayer === 'X') {
             //If activePlayer is equal to 'X', the x.png is placed in HTML
-            select.style.backgroundImage = 'url("images/x.png)';
+            select.style.backgroundImage = 'url("images/x.png")';
             //Active player may only be 'X' or 'O' so, if not 'X' it must be 'O'
         } else {
             //If activePlayer is equal to 'O', the o.png is placed in HTML
             select.style.backgroundImage = 'url("images/o.png")';
         }
         //squareNumber and activePlayer are concatenated together and added to array.
-        selectedSqaures.push(squareNumber + activePlayer);
+        selectedSquares.push(squareNumber + activePlayer);
         //This calls a function to check for any win conditions.
         checkWinConditions();
         //This condition is for changing the active player.
@@ -103,7 +103,7 @@ function checkWinConditions() {
     else if (arrayIncludes('0O', '4O', '8O')) { drawWinLine(100, 100, 520, 520) }
     //This condition checks for a tie. If none of the above conditions are met and 
     //9squares are selected the code executes.
-    else if (selectedSqaures.length >= 9) {
+    else if (selectedSquares.length >= 9) {
         //This function plays the tie game sound.
         audio('./media/tie.mp3');
         //This function sets a .3 second timer before the resetGame is called.
@@ -113,9 +113,9 @@ function checkWinConditions() {
     //each win condition.
     function arrayIncludes(squareA, squareB, squareC) {
         //These 3 variables will be used to check for 3 in a row.
-        const a = selectedSqaures.includes(squareA);
-        const b = selectedSqaures.includes(squareB);
-        const c = selectedSqaures.includes(squareC);
+        const a = selectedSquares.includes(squareA);
+        const b = selectedSquares.includes(squareB);
+        const c = selectedSquares.includes(squareC);
         //If the 3 variables we pass are all included in our array then
         //true is returned and our else if condition executes the drawLine() function.
         if (a === true && b === true && c === true) { return true; }
@@ -125,7 +125,7 @@ function checkWinConditions() {
 //This function makes our body element temporarily unclickable.
 function disableClick() {
     //This makes our body unclickable.
-    ReportBody.style.pointerEvents = 'none';
+    body.style.pointerEvents = 'none';
     //This makes our body clickable again after 1 second.
     setTimeout(function() { body.style.pointerEvents = 'auto'; }, 1000);
 }
@@ -156,7 +156,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         //This variable stores temporary x axis data we update in our animation loop.
         x = x1,
         //This variable stores temporary y axis data we update in our animation loop.
-        y = y1,
+        y = y1;
 
     //This function interacts with the canvas.
     function animateLineDrawing() {
@@ -224,5 +224,5 @@ function resetGame() {
         square.style.backgroundImage = '';
     }
     //This resets our array so it is empty and we can start over.
-    selectedSqaures = [];
+    selectedSquares = [];
 }
