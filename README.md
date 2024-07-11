@@ -1,17 +1,27 @@
 # JavaScript_Projects
 
-This is a showcase of sample websites I made using HTML and CSS.
+These are some small projects I made using JavaScript.
 
 <b>Projects</b>
 <br>
-Basic HTML and CSS<br>
-CSS Rollover menu<br>
-HTML Page Template With LiveShare<br>
-One Page Website<br>
-Space Station Website<br>
-Cinema Website<br>
+Calculator<br>
+Tic Tac Toe game<br>
+ToDo App<br>
+Pizza Menu<br>
+Expressions Alert<br>
+Functions<br>
+Math Operators<br>
+Dictionary<br>
+Comparisons Type Coercion<br>
+Ternary Operators Constructors<br>
+Scope Time Function<br>
+String Methods<br>
+Countdown Slideshow<br>
+Loop Arrays<br>
+<br>
+
 <ul>
-<li><b>Basic HTML and CSS</b></li>
+<li><b>JavaScript</b></li>
 <br>
 These are practice webpages with examples of making forms, lists, and linking HTML pages and CSS pages together.
 <br>
