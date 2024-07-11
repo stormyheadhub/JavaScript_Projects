@@ -5,7 +5,7 @@ These are some small projects I made using JavaScript.
 <b>Projects</b>
 <br>
 Calculator<br>
-Tic Tac Toe game<br>
+TicTacToe game<br>
 ToDo App<br>
 Pizza Menu<br>
 Expressions Alert<br>
@@ -21,14 +21,14 @@ Loop Arrays<br>
 <br>
 
 <ul>
-<li><b>JavaScript</b></li>
+<li><b>Calculator</b></li>
 <br>
-These are practice webpages with examples of making forms, lists, and linking HTML pages and CSS pages together.
+ This is a project
 <br>
 <br>
-<li><b>CSS Rollever Menu</b></li>
+<li><b>TicTacToe Game</b></li>
 <br>
-This is an example of a simple rollover menu created with CSS.
+ 
 <br>
 <br>
 <li><b>HTML Page Template with LiveShare</b></li>
@@ -49,5 +49,9 @@ This is an example website about a space travel company styled with CSS.
 <li><b>Cinema Website</b></li>
 <br>
 This is an example website for small cinema in Portland Oregon that is styized using bootstrap4.
-
+<li><b>TicTacToe Game</b></li>
+<br>
+ 
+<br>
+<br>
  
