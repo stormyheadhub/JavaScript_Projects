@@ -51,7 +51,7 @@ A project demonstrating a clickable alert function.
 <br>
 <li><b>Math Operators</b></li>
 <br>
-This project demonstrates math operations: addition, subtraction, multiplication, division, multiple operations, remainders, negative numbers, increments, and decrements with clickable buttons. 
+This project demonstrates math operations; addition, subtraction, multiplication, division, multiple operations, remainders, negative numbers, increments, and decrements with clickable buttons. 
 <br>
 <br>
 <li><b>Comparisons Type Coercions</b></li>
